@@ -69,3 +69,22 @@
 // console.log(result);
 
 //*Task-2
+// var elementCount = 4;
+// var element = 11;
+// var result = Array(elementCount).fill(element);
+
+// console.log(result);
+
+//*Task-3
+// let text = "javascript";
+// let result = text.replace("j", "J");
+
+// console.log(result);
+
+//*Task-4
+// let fullName = "john doe";
+// let result = fullName.toUpperCase();
+
+// console.log(result);
+
+//*Task-5
