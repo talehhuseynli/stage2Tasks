@@ -88,3 +88,62 @@
 // console.log(result);
 
 //*Task-5
+// let weather = "Today is a sunny day";
+// let result = weather.replace("sunny", "rainy");
+
+// console.log(result);
+
+//*Task-6
+// let text = "JavaScript is a funny language";
+// let result = text.split(" ");
+
+// console.log(result);
+
+//*Task-7
+//! Menim versiyam sehv oldu (Bu mene tam catmadi)
+// let fruits = ["Apple", "Banana", "Mango"];
+// let newFruits = fruits.push("Orange");
+
+// console.log(fruits);
+
+// if (fruits.includes(newFruits)) {
+//   console.log("axtardiginiz" + newFruits + "tapildi");
+// } else {
+//   console.log("axtardiginiz yoxdur");
+// }
+//! Chat GPT yazdi (Sohbeti tutmadim)
+// let fruits = ["Apple", "Banana", "Mango"];
+// fruits.push("Orange");  // Add "Orange" to the array
+
+// console.log(fruits);
+
+// let searchFruit = "Orange";  // The fruit you're searching for
+
+// if (fruits.includes(searchFruit)) {
+//   console.log("axtardiginiz " + searchFruit + " tapildi");
+// } else {
+//   console.log("axtardiginiz yoxdur");
+// }
+
+//*Task-8
+// let firstNames = ["John", "Jane"];
+// let lastNames = ["Doe", "Smith"];
+// let fullNames = firstNames.concat(lastNames);
+// fullNames.pop();
+// fullNames.shift();
+
+// console.log(fullNames);
+
+//*Task-9
+// let word = "JavaScript";
+// let array = word.split("");
+// result = array.reverse();
+// result2 = result.join("");
+
+// console.log(result2);
+
+//*Task-10
+// let fruits = ["Apple", "Banana", "Mango", "Orange"];
+// let result = fruits.indexOf("Banana");
+
+// console.log(result);
