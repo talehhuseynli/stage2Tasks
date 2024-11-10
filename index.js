@@ -63,9 +63,9 @@
 
 //November 7
 //*Task-1
-var fruit = "banana";
-var result = fruit.length;
+// var fruit = "banana";
+// var result = fruit.length;
 
-console.log(result);
+// console.log(result);
 
 //*Task-2
