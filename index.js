@@ -56,3 +56,16 @@
 // console.log(result2);
 
 //*Task-10
+// var list = [1, 2, 3, 4, 5, 2];
+// var result = list.splice(1, 1);
+
+// console.log(result);
+
+//November 7
+//*Task-1
+var fruit = "banana";
+var result = fruit.length;
+
+console.log(result);
+
+//*Task-2
