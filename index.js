@@ -174,12 +174,20 @@
 // console.log("Task-1", total);
 
 //* Task-2
+//^ Birinci usul:
 // let list = [1, 2, 3, 4, 5];
-// let total = [1];
+// let num = [1];
 // for (let el of list) {
-//   total *= el;
+//   num *= el;
 // }
-// console.log("Task-2",total);
+// console.log("Task-2",num);
+
+//^ Ikinci usul:
+// let num = 1;
+// for (let i = 1; i <= 5; i++) {
+//   num *= i;
+// }
+// console.log(num);
 
 //* Task-3
 // let list = [3, 7, 2, 8, 5];
@@ -199,4 +207,100 @@
 // let d = c.join("");
 // console.log(d);
 
-//* Task-5
+//^ ------------------------------------------------------
+
+//? November 14
+
+//* Code wars-1
+// function check(a, x) {
+//   if (a.includes(x)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// let result = check([66, 101], 66);
+// console.log(result);
+
+//* Code wars-2
+// function reverseList(list) {
+//   let a = list.reverse();
+//   return a;
+// }
+// let b = reverseList([1, 2, 3, 4]);
+// console.log(b);
+
+//* Code wars-3
+//?
+
+//* Task-1
+// function sumArray(num) {
+//   let total = 0;
+//   for (let i = 0; i < num.length; i++) {
+//     total += num[i];
+//   }
+//   return total;
+// }
+// console.log(sumArray([1, 2, 3, 4]));
+
+//* Task-2
+// function fact(a){
+//     let el=1
+//     for(let i=1;i<=a;i++){
+//         el*=i
+//     }
+//     return el;
+//  }
+//  console.log(fact(5));
+
+//* Task-3
+// let list = [3, 7, 2, 8, 5];
+// function findMax(num) {
+//   let max = 0;
+//   for (let i = 0; i < num.length; i++) {
+//     if (max < num[i]) {
+//       max = num[i];
+//     }
+//   }
+//   return max;
+// }
+// console.log(findMax(list));
+
+//* Task-4
+// let string = reverseString("hello");
+
+// function reverseString(inputString) {
+//   return inputString.split("").reverse().join("");
+// }
+// console.log(string);
+
+//^ ------------------------------------------------------
+
+//? November 18
+
+//* Task-1
+// function countVowels(arr) {
+//   const vowels = "a,ı,o,u,e,ə,i,ö,ü";
+//   let count = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (vowels.includes(arr[i])) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// console.log(countVowels("javascript"));
+
+//* Task-2
+function printEvens(num) {
+  let evens = 0;
+  for (let i = 1; i <= num; i++) {
+    if (i % 2 == 0) {
+      console.log(i);
+    }
+  }
+  return evens;
+}
+printEvens(10);
+
+//* Task-3
