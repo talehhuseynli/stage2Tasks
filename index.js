@@ -292,15 +292,160 @@
 // console.log(countVowels("javascript"));
 
 //* Task-2
-function printEvens(num) {
-  let evens = 0;
-  for (let i = 1; i <= num; i++) {
-    if (i % 2 == 0) {
-      console.log(i);
-    }
-  }
-  return evens;
-}
-printEvens(10);
+// function printEvens(num) {
+//   let evens = 0;
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 2 == 0) {
+//       console.log(i);
+//     }
+//   }
+//   return evens;
+// }
+// printEvens(10);
 
 //* Task-3
+// function sumDigits(num) {
+//   let sum = 0;
+//   let digit = num.toString();
+//   for (let i = 0; i < digit.length; i++) {
+//     sum += +digit[i];
+//   }
+//   return sum;
+// }
+// console.log(sumDigits(123));
+
+//* Task-4
+// function multiplicationTable(num) {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${i} x ${num} = ${num * i}`);
+//   }
+// }
+// multiplicationTable(3);
+
+//* Task-5
+// function fizzBuzz(num) {
+//   for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//       console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//       console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//       console.log("Buzz");
+//     } else {
+//       console.log(i);
+//     }
+//   }
+// }
+
+// fizzBuzz(15);
+
+//^ ------------------------------------------------------
+
+// ? November 21
+
+//* Task-1
+// function numbers(number) {
+//   console.log(number);
+// }
+// function performOperation(number, callback) {
+//   callback(number);
+// }
+// performOperation(15, numbers);
+
+//* Task-2
+// function transformArray(arr, callback) {
+//   return arr.map(callback);
+// }
+// function multiplyByTwo(num) {
+//   return num * 2;
+// }
+// const numbers = [1, 2, 3];
+// const transformedArray = transformArray(numbers, multiplyByTwo);
+// console.log(transformedArray);
+
+//* Task-3
+// function filterArray(arr, callback) {
+//     return arr.filter(callback);
+//   }
+//   function isEven(num) {
+//     return num % 2 == 0;
+//   }
+//   const numbers = [1, 2, 3, 4];
+//   const filteredArray = filterArray(numbers, isEven);
+//   console.log(filteredArray);
+
+//^ ------------------------------------------------------
+
+// ? November 25
+
+//* Task-1
+// let inputArray = [1, 2, 3, 4, 5, 6];
+// console.log(
+//   inputArray.filter(function (el) {
+//     return el % 2 == 0;
+//   })
+// );
+
+//* Task-2
+// let inputArray = [1, 2, 3, 4, 5, 6];
+// console.log(
+//   inputArray.filter(function (el) {
+//     return !(el % 2 == 0);
+//   })
+// );
+
+//* Task-3
+// let inputArray = [1, 2, 2, 3, 4, 4, 5];
+// const newArr = [];
+// inputArray.forEach((item) => {
+//   if (!newArr.includes(item)) {
+//     newArr.push(item);
+//   }
+// });
+// console.log(newArr);
+
+//^ ------------------------------------------------------
+
+// ? November 28
+
+//* Task-1
+// function greet() {
+//   let name = "taleh";
+//   function outer(n) {
+//     n = name;
+//     return n;
+//   }
+//   return outer();
+// }
+// console.log(greet());
+
+//* Task-2
+// function greet(name) {
+//   function outer() {
+//     let a = `hello ${name}`;
+//     return a;
+//   }
+//   return outer();
+// }
+// console.log(greet("taleh"));
+
+//* Task-3
+// function createCounter() {
+//   let count = 0;
+//   return function () {
+//     count++;
+//     return count;
+//   };
+// }
+// const counter = createCounter();
+// console.log(counter());
+
+//* Task-4
+
+//* Task-5
+
+//^ ------------------------------------------------------
+
+// ? December 2
+
+//* Task-1
